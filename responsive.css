@@ -4,6 +4,9 @@
   .header-container {
     padding: 0 80px;
   }
+  .navbar {
+    gap: 10px;
+  }
 
   /* hero section  */
   .hero-box-a {
@@ -44,6 +47,27 @@
   .funny-videos {
     padding: 40px;
   }
+  .play-instantly-box-b .play-instantly-box-img-top {
+    max-width: 320px;
+  }
+  .play-instantly-box-b .play-instantly-box-img-bottom {
+    max-width: 130px;
+    top: -110px;
+    left: -60%;
+  }
+
+  .play-instantly-container {
+    padding: 40px;
+  }
+  .play-instantly-box-a {
+    width: 50%;
+  }
+
+  .play-instantly-box-b {
+    width: 50%;
+  }
+
+
 }
 
 /* Tab Screen  */
@@ -63,6 +87,7 @@
     height: auto;
     box-shadow: none;
     padding: 50px;
+    gap: 50px;
   }
 
   .navbar {
@@ -117,6 +142,40 @@
   .section-title-header {
     font-size: 40px;
   }
+
+    /* funny-videos Section  */
+
+    .play-instantly-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    .funny-videos {
+        padding: 40px;
+      }
+      .play-instantly-box-a {
+        text-align: center;
+      }
+      .play-instantly-box-b .play-instantly-box-img-top {
+        max-width: 80%;
+      }
+      .play-instantly-box-b .play-instantly-box-img-bottom {
+        max-width: 40%;
+        top: -125px;
+        left: -60%;
+      }
+    
+      .play-instantly-box-a {
+        width: 100%;
+      }
+    
+      .play-instantly-box-b {
+        width: 100%;
+      }
+
+
+
 }
 
 /* Mobile Screen  */
@@ -173,5 +232,19 @@
     font-size: 17px;
   }
 
-  
+    /* funny-videos Section  */
+    .play-instantly-content {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+.play-instantly-box-b .play-instantly-box-img-top {
+  max-width: 75%;
+}
+.play-instantly-box-b .play-instantly-box-img-bottom {
+  max-width: 35%;
+  top: -110px;
+  left: -58%;
+}
+
+
 }
