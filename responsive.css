@@ -1,4 +1,4 @@
-/* Laptop  */
+/* Laptop ============================ */
 @media (max-width: 992px) {
   /* Header Section  */
   .header-container {
@@ -68,9 +68,35 @@
   }
 
 
+  /* Careers Section  */
+  .career-box {
+    width: 100%;
+  }
+  .career-box-a {
+    margin: 50px 0;
+    margin-left: 50px;
+  }
+
+  .careers-container {
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .careers-info-container {
+    width: 100%;
+  }
+  .career-box-a {
+    margin: 0;
+    padding: 40px;
+  }
+
 }
 
-/* Tab Screen  */
+
+
+
+/* Tab Screen ============================ */
 @media (max-width: 768px) {
   /* Header Section  */
   .header-logo {
@@ -143,42 +169,61 @@
     font-size: 40px;
   }
 
-    /* funny-videos Section  */
+  /* funny-videos Section  */
 
-    .play-instantly-container {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 50px;
-    }
-    .funny-videos {
-        padding: 40px;
-      }
-      .play-instantly-box-a {
-        text-align: center;
-      }
-      .play-instantly-box-b .play-instantly-box-img-top {
-        max-width: 80%;
-      }
-      .play-instantly-box-b .play-instantly-box-img-bottom {
-        max-width: 40%;
-        top: -125px;
-        left: -60%;
-      }
-    
-      .play-instantly-box-a {
-        width: 100%;
-      }
-    
-      .play-instantly-box-b {
-        width: 100%;
-      }
+  .play-instantly-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  .funny-videos {
+    padding: 40px;
+  }
+  .play-instantly-box-a {
+    text-align: center;
+  }
+  .play-instantly-box-b .play-instantly-box-img-top {
+    max-width: 80%;
+  }
+  .play-instantly-box-b .play-instantly-box-img-bottom {
+    max-width: 40%;
+    top: -125px;
+    left: -60%;
+  }
+
+  .play-instantly-box-a {
+    width: 100%;
+  }
+
+  .play-instantly-box-b {
+    width: 100%;
+  }
+
+  /* Careers Section   */
+  .career-box-title {
+    font-size: 35px;
+  }
+
+  .career-box-b {
+    padding: 40px;
+  }
+  .career-box-b img {
+    min-height: auto;
+    height: auto;
+  }
 
 
 
 }
 
-/* Mobile Screen  */
+
+
+
+
+
+
+/* Mobile Screen ============================ */
 @media (max-width: 576px) {
   /* hero section  */
   .hero-btn-box button {
@@ -232,19 +277,39 @@
     font-size: 17px;
   }
 
-    /* funny-videos Section  */
-    .play-instantly-content {
-        font-size: 35px;
-        margin-bottom: 15px;
-    }
-.play-instantly-box-b .play-instantly-box-img-top {
-  max-width: 75%;
+  /* funny-videos Section  */
+  .play-instantly-content {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+  .play-instantly-box-b .play-instantly-box-img-top {
+    max-width: 75%;
+  }
+  .play-instantly-box-b .play-instantly-box-img-bottom {
+    max-width: 35%;
+    top: -100px;
+    left: -58%;
+  }
+
+  /* Careers Section  */
+  .career-box-description {
+    font-size: 15px;
+  }
+  .careers-info-box p {
+    font-size: 13px;
+  }
+
+  .careers-box-btn {
+    padding: 0.6rem 0.9rem;
+    font-size: 12px;
+    border-radius: 30px;
+    margin: 0;
 }
-.play-instantly-box-b .play-instantly-box-img-bottom {
-  max-width: 35%;
-  top: -110px;
-  left: -58%;
+
+.careers-info-container {
+    margin: 30px 0;
 }
+
 
 
 }
