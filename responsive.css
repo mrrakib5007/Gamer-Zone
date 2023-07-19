@@ -67,7 +67,6 @@
     width: 50%;
   }
 
-
   /* Careers Section  */
   .career-box {
     width: 100%;
@@ -91,10 +90,23 @@
     padding: 40px;
   }
 
+  /* games-category-section  */
+  .games-category-container {
+    padding: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+/* Footer Section  */
+.footer-container {
+    padding: 40px;
 }
 
 
 
+}
 
 /* Tab Screen ============================ */
 @media (max-width: 768px) {
@@ -170,13 +182,13 @@
   }
 
   /* funny-videos Section  */
-
   .play-instantly-container {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 50px;
   }
+
   .funny-videos {
     padding: 40px;
   }
@@ -213,15 +225,47 @@
     height: auto;
   }
 
+  /* games-category-section  */
 
+  .games-category-box {
+    padding: 3px 6px;
+}
 
+  .games-category-box .games-category-box-img {
+    width: 40px;
+    height: 40px;
+}
+
+.games-category-box-title {
+    color: #0B0223;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* Footer Section  */
+.footer-menu-container {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social-icon-container {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-setting-menu-container {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 
-
-
-
-
+}
 
 /* Mobile Screen ============================ */
 @media (max-width: 576px) {
@@ -304,10 +348,37 @@
     font-size: 12px;
     border-radius: 30px;
     margin: 0;
+  }
+
+  .careers-info-container {
+    margin: 30px 0;
+  }
+
+  /* games-category-section */
+  .games-category-box {
+    margin-bottom: 10px;
+  }
+  .games-category-box .games-category-box-img {
+    width: 30px;
+    height: 30px;
 }
 
-.careers-info-container {
-    margin: 30px 0;
+.games-category-box-title {
+    font-size: 13px;
+}
+
+/* footer section */
+
+.footer-menu-box a {
+    font-size: 14px;
+}
+
+.footer-setting-menu-box a {
+    font-size: 14px;
+}
+
+.copyright p {
+    font-size: 14px;
 }
 
 
