@@ -1,0 +1,101 @@
+
+/* Laptop  */
+@media (max-width:992px){
+    /* Header Section  */
+    .header-container {
+        padding: 0 80px;
+    }
+
+    /* hero section  */
+    .hero-box-a {
+        padding-left: 40px;
+    }
+    .hero-box-b {
+        padding-right: 40px;
+    }
+
+    .hero-box .hero-box-title {
+        margin-bottom: 20px;
+        font-size: 88px;
+    }
+
+    .hero-box .hero-box-stats {
+        color: #0B0223;
+        font-size: 43px;
+    }
+    
+}
+
+/* Tab Screen  */
+@media (max-width:768px){
+        /* Header Section  */
+    .header-logo {
+        margin-bottom: 20px;
+    }
+    .navbar {
+        gap: 0px;
+    }
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+        box-shadow: none;
+        padding: 50px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:0px;
+    }
+
+    /* hero section  */
+    .hero-section {
+        flex-direction: column-reverse;
+        gap: 20px;
+        max-height: 1200px;
+        align-items: center;
+    }
+    .hero-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-box-a {
+        background-size: 105%;
+        background-repeat: no-repeat;
+        padding:40px;
+    }
+    
+    .hero-box-b {
+        padding:40px;
+    }
+
+}
+
+/* Mobile Screen  */
+@media( max-width:576px){
+
+    /* hero section  */
+    .hero-btn-box button {
+        font-size: 18px;
+
+        padding: 1rem 1.8rem;
+        border-radius: 50px;
+    }
+
+    .hero-box .hero-box-title {
+        margin-bottom: 20px;
+        font-size: 80px;
+        font-weight: 800;
+    }
+
+    .hero-box .hero-box-stats {
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,214 @@
+/* Google Font =========================== */
+
+/* Work Sans Font  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+/* Common Style =========================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Header Section ===================== */
+.header-container {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.header-logo img{
+    max-width: 55px;
+}
+
+.header-logo h3{
+    font-size: 2rem;
+}
+
+.header-logo h3 span{
+    font-size: 2rem;
+    color: #FF42A5;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar li {
+    padding: 0.8rem;
+}
+
+.navbar li:hover a {
+    color: #FF42A5;
+}
+
+.navbar li a {
+    display: block;
+    color: #3C354F;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3;
+}
+
+.navbar li:last-child {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    gap: 10px;
+}
+
+.navbar li a > i.fa-youtube {
+    color: #FF0000;
+}
+.navbar li a > i.fa-tiktok {
+    color: #183153;
+}
+
+
+/* hero section  ======================*/
+.hero-section {
+    display: flex;
+    gap: 20px;
+    max-height: 100vh;
+}
+
+.hero-box {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-box-a {
+    background: url(images/Group\ 14.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.hero-box-b {
+    padding-right: 100px;
+}
+
+.hero-box .hero-box-stats {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.hero-box .hero-box-title {
+    margin-bottom: 20px;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-box-content-and-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.hero-box-content-and-icon i  {
+    font-size: 1.4rem;
+    color: #0B0223;
+}
+
+.hero-box-content-and-icon i.fa-download {
+    color: #F948B2;
+}
+
+.hero-box-content-and-icon p
+{
+    font-size: 1.5rem;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+
+.hero-box img {
+    width: 100%;
+}
+
+.hero-btn-box {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.hero-btn-box button {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1.1rem 2rem;
+    border-radius: 50px;
+}
+
+.hero-btn-box .sign-in {
+    background: #FF42A5 ;
+    border: 2px solid #FF42A5;
+    color: #FFF;
+    transition: all 0.3s;
+}
+
+.hero-btn-box .sign-in:hover {
+    background: none ;
+    color: #FF42A5;
+}
+
+.hero-btn-box .go-rogue {
+    background: #8758F1;
+    border: 2px solid #8758F1;
+    color: #FFF;
+    transition: all 0.3s;
+}
+
+.hero-btn-box .go-rogue:hover {
+    background: none;
+    color: #8758F1;
+}
