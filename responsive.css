@@ -271,9 +271,8 @@
 @media (max-width: 576px) {
   /* hero section  */
   .hero-btn-box button {
-    font-size: 18px;
-
-    padding: 1rem 1.8rem;
+    font-size: 16px;
+    padding: 0.8rem 1.2rem;
     border-radius: 50px;
   }
 
@@ -380,7 +379,6 @@
 .copyright p {
     font-size: 14px;
 }
-
 
 
 }
